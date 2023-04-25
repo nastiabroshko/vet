@@ -1,0 +1,393 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap'); 
+body{
+    margin: 0px;
+    overflow-x:hidden;
+}
+.main {
+    width: 100%;
+    height: 100%;
+}
+.background_img {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: right;
+    position: absolute;
+}
+.background_img img {
+    width: 70%;
+}
+.navbar_vet{
+    width: 100vw;
+}
+ul.navbar-nav.me-auto.mb-2.mb-lg-0 {
+    width: 100%;
+}
+.item_display{
+    margin: 0 auto;
+    display: flex;
+}
+.item_display li{
+    font-family: Nunito;
+    font-weight:600;
+    font-size: 15px;
+    transition:ease 0.30s;
+}
+.item_display li:hover{
+    font-size: 18px;
+}
+.item_display li a{
+    padding-left: 3%;
+}
+.user{
+    display: flex;
+    margin-right: 3%;
+}
+.user_img{
+    height: 30px;
+    width: 30px;
+    background-color: rgb(112, 107, 104);
+    border-radius: 50%;
+}
+.user_name{
+   padding-right: 5%;
+   font-family: Nunito;
+   font-weight: 600;
+}
+.info_block{
+    width: 80%;
+    position: relative;
+    display: flex;
+    margin: 3% auto;
+    height: 100%;
+    
+}
+.info_block img{
+   width: 120%;
+   height: 100%;
+}
+
+.info h1{
+    font-family: Nunito;
+    font-weight: 600;
+    text-align: center;
+    color: rgba(25, 58, 106, 1);
+    
+}
+.info p{
+    text-align: center;
+    font-size: 18px;
+}
+.button_vet{
+    text-align: center;
+}
+.button_vet img{
+    margin-right: 5%;
+    height: 12%;
+    width: 12%;
+}
+.button_vet a{
+    background-color: rgba(25, 58, 106, 1);
+}
+.button_vet a:hover{
+    border: 1px solid rgba(25, 58, 106, 1);
+    background-color: transparent;
+    color: rgba(25, 58, 106, 1);
+    transition:ease 1.30s;
+}
+
+.icons_block{
+    display: flex;
+}
+.border_block_icon{
+    width: 60%;
+    height: 12vh;
+    border: 2px solid rgba(235, 241, 250, 1);
+    border-radius: 8%;
+    margin: 3%;
+    margin-top: 7%;
+    background-color: #FFFFFF;
+    
+}
+
+.cat_block_img img{
+    height: 70%;
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -15%;
+}
+.border_block_icon p{
+    font-family: Nunito;
+    font-weight: 600;   
+    color: rgba(25, 58, 106, 1);
+}
+.book{
+    position: relative;
+    margin-top: 15%;
+    width: 100%;
+    margin: auto;
+    margin-top: 15%;
+    display: flex;
+    padding-top: 3%;
+    justify-content: space-between;
+}
+.book p{
+    
+    font-family: Nunito;
+    font-weight: 600;   
+    color: rgba(25, 58, 106, 1);
+}
+.date_design input{
+height: 20%;
+width: 100%;
+border: none;
+}
+.book button{
+    width: 100%;
+    border:2px solid rgba(25, 58, 106, 1);
+    color: rgba(25, 58, 106, 1);
+    background-color: transparent;    
+}
+.book button:hover{
+    background-color: rgba(25, 58, 106, 1);
+    color: #FFFFFF;
+    transition:ease 1.30s;
+}
+.book button:active{
+    background-color: rgba(25, 58, 106, 1);
+}
+.button_book{
+    position: relative;
+    width: 15%;
+    height: 10vh;
+    margin: -5% auto;
+}
+.button_book button{
+    background-color: rgba(25, 58, 106, 1);
+    width: 100%;
+    height: 70%;
+    font-weight: 600;
+}
+.button_book button:hover{
+    background-color:transparent ;
+    border:2px solid rgba(25, 58, 106, 1);
+    color: rgba(25, 58, 106, 1);
+    transition:ease 1s;
+}
+.Pet_services{
+    margin-top: 10%;
+    position: relative;
+}
+.Pet_services p{
+    text-align: center;
+    font-family: Nunito;
+    font-weight: 700;   
+}
+.Pet_services h3{
+    text-align: center;
+}
+.services_blocks1{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.consultation,.grooming,.surgeries,.pet_food,.emergency_care,.vaccinations{
+    
+    height: 37vh;
+    width: 30%;
+    border-radius:5%;
+    margin: 1%;
+    background-image: url(./img/Card-Service-2.png);
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.consultation:hover,.grooming:hover,.surgeries:hover,.pet_food:hover,.emergency_care:hover,.vaccinations:hover{
+    background-image: url(./img/Card-Service-Active\ \(1\).png);
+    background-size: cover;
+    color: #FFFFFF;
+    
+}
+.img_text_consultation{
+    display: flex;
+    margin: 5%;
+}
+.img_text_consultation img{
+    width: 90%;
+    height: 90%;
+}
+.text_consultation{
+    display: flex;
+    align-items: center;
+    margin-left: 3%;
+    font-family: Nunito;
+    font-weight: 800;   
+}
+.description{
+    height: 40%;
+    width: 85%;
+    margin: 0 auto;
+    font-size: small;
+}
+.consultation_button button{
+    text-decoration: none;
+    color: rgb(211, 181, 62);
+    font-family: Nunito;
+    font-weight: 800; 
+    margin-left: 3%;
+}
+.consultation_button button:hover{
+    color: #FFFFFF;
+}
+.blog_questions{
+    width: 80%;
+    margin: auto; 
+    margin-top: 10%;
+    margin-bottom: 10%;  
+    display: flex;
+}
+.questions{
+    width: 50%;
+    height: 40vh;
+}
+.collapse_display{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5%;
+  
+}
+.collapse_p{
+    display: flex;
+    align-items: center;
+    font-family: Nunito;
+    font-weight: 900;
+}
+.collapse_display a{
+    background-color: rgba(25, 58, 106, 1);
+}
+.collapse_display a:hover{
+    background-color:rgb(38, 83, 152);
+}
+.img_question{
+    margin-left: 3%;
+    height: 40vh;
+    width: 50%;
+    margin-bottom: 25%;
+}
+.img_question img{
+    position:absolute;
+}
+.cat_img_1 img{
+    margin-left: 20%;
+    margin-top: 35%;
+    z-index: 2;
+}
+.dog_img_1 img{
+    margin-top: 10%;
+    margin-left: 27%;
+    z-index: 2;
+
+}
+.dog_img_2{
+    margin-top: 15%;
+    z-index: 1;
+}
+.display_phone_text{
+    display: flex;
+}
+.phone_number{
+    font-family: Nunito;
+    font-weight: 900;
+}
+footer{
+    display: flex;
+    width: 100%;
+}
+.hours_work{
+    display: flex;
+    background-color: rgba(246, 250, 255, 1);
+    
+}
+.hours_work div{
+    margin: 7% auto;
+}
+.day{
+    margin-right: 3%;
+}
+.block_1_footer{
+    width: 30%;
+}
+.working_hours_block{
+    width: 20%;
+    margin-left: 3%;
+}
+.working_hours_block p{
+    font-family: Nunito;
+    font-weight: 900;
+    font-size: 25px;
+}
+.useful_links_block{
+    margin-left: 3%;
+}
+.useful_links_block p{
+    font-family: Nunito;
+    font-weight: 900;
+    font-size: 25px;
+}
+footer{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 25%;
+}
+.ul_links{
+    display: flex;
+}
+.newsletter{
+    margin-left: 3%;
+    width: 30%;
+}
+.newsletter p{
+    font-family: Nunito;
+    font-weight: 900;
+    font-size: 25px;
+}
+.newsletter img{
+    height: 15px;
+}
+.links_a{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+.links_a img{
+    height: 70%;
+}
+.newsletter button{
+    background-color: rgba(25, 58, 106, 1);
+}
+.email_button{
+    margin-top: 3%;
+}
+.text_vetic{
+    margin-top: 3%;
+}
+/* @media screen and (max-width: 768px) {
+   .dog_img{
+    display: none;
+   } 
+   .cat_img{
+    display: none;
+   }
+   .user{
+    display: none;
+   }
+   .icons_block{
+    display: block;
+   }
+   .cat_block_img{
+    margin: 15% auto;
+    height: 100%;
+   }
+  } */
+  

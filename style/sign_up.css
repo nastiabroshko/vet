@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap'); 
+body{
+    background-color: rgba(253, 241, 233, 1);
+    margin: 0%;
+}
+.main{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+}
+.block_sign_in{
+    width: 80%;
+    height: 87vh;
+    background-color: rgba(245, 245, 245, 1);
+    margin: 0 auto;
+    border-radius: 5%;
+    display: flex;
+}
+.sign_in_text{
+    width: 50%;
+    height: 100%;
+}
+.sign_in_img img{
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 5%;
+}
+.sign_in_img{
+    width: 50%;
+}
+.sign_in_text h1{
+    font-family: Nunito;
+    font-weight:bolder;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 5%;
+}
+.form_sign_in{
+    width: 80%;
+    margin: 0 auto;
+}
+.form_sign_in input{
+    background-color: transparent;
+    border: none;
+    border-radius: 0%;
+    border-bottom: 1.5px solid black;
+}
+.form_sign_in button{
+    width: 40%;
+    background-color: rgba(25, 58, 106, 1);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    
+}
+.button_submit{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly
+}
+.block_signup{
+    width: 100%;
+    display: flex;
+    margin-top: 5%;
+}
+.signup_hr{
+    width: 100%;
+    height: 0.3vh;
+    background-color: rgba(25, 58, 106, 1);
+}
+.text_signup{
+    width: 100%;
+    text-align: center;
+}
+.signup_icons{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+.link_sign_in{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.link_sign_in a{
+    text-decoration: none;
+    color: rgba(25, 58, 106, 1);
+    margin-left: 3%;
+}
+.link_sign_in p{
+    width: 100%;
+}
+.form_sign_in{
+    font-family: Nunito;
+    font-weight:bolder;
+}
+.link_sign_in_a {
+    width: 100%;
+}
+.form_sign_in button:hover{
+    transition:ease 1s;
+    background-color: rgb(49, 74, 110);
+}
+.text_for_email{
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .sign_in_text{
+        width: 100%;
+        height: 30%;
+    }
+    .sign_in_img{
+        display: none;
+    }
+
+}
